@@ -18,14 +18,15 @@ workspace "SnakeGame"
         files { "App/Source/**.cpp", "App/Source/**.h", "Core/Source/Core/**h", "Core/Source/Core/**.cpp" } 
 
         includedirs { 
-            "/home/coolguy1/Projects/SnakeGame/Core/Source/Core/Raylib/include/",
-            "/home/coolguy1/Projects/SnakeGame/App/Source/",
-            "/home/coolguy1/Projects/SnakeGame/Core/Source/Core/"
+            
+            "Core/Source/Core/Raylib/include/",
+            "App/Source/",
+            "Core/Source/Core/"
             
         }
 
         libdirs { 
-            "/home/coolguy1/Projects/SnakeGame/Core/Source/Core/Raylib/" 
+            "Core/Source/Core/Raylib/" 
         }
 
         links { 

@@ -3,7 +3,7 @@
 
 int main()
 {
-  Core::Application appspecs {"SnakeSnakeGame!!!", 1080, 1920, 60};
+  Core::Application appspecs {"SnakeGame!!!", 1080, 1920, 120};
   App::AppLayer snakeGame;
   
   appspecs.pushBack(snakeGame);

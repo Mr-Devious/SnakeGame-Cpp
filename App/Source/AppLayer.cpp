@@ -3,11 +3,11 @@
 
 #include "snake.h"
 
-#include "logic.h"
 
 namespace App
 {
   Snake::Player player = Snake::Player();
+  Snake::Apple apple = {};
 
   void AppLayer::onCreate(){return;};
 
@@ -17,9 +17,16 @@ namespace App
     {
       ClearBackground(DARKGREEN);
       BeginDrawing();
-      player.move();
+
       player.drawBody();
-      Snake::printScore(); 
+      Snake::printScore();
+      Snake::onCollide(player, apple);
+      
+      player.move();
+      apple.draw();
+
+      
+      
 
       EndDrawing();
     }
