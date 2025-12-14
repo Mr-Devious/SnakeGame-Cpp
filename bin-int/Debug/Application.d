@@ -1,5 +1,5 @@
-obj/Debug/main.o: SnakeGame/src/main.cpp /usr/include/stdc-predef.h \
- /usr/include/c++/15.2.1/iostream \
+bin-int/Debug/Application.o: Core/Source/Core/Application.cpp \
+ /usr/include/stdc-predef.h /usr/include/c++/15.2.1/iostream \
  /usr/include/c++/15.2.1/bits/requires_hosted.h \
  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
@@ -143,7 +143,13 @@ obj/Debug/main.o: SnakeGame/src/main.cpp /usr/include/stdc-predef.h \
  /usr/include/c++/15.2.1/bits/locale_facets.tcc \
  /usr/include/c++/15.2.1/bits/basic_ios.tcc \
  /usr/include/c++/15.2.1/bits/ostream.tcc /usr/include/c++/15.2.1/istream \
- /usr/include/c++/15.2.1/bits/istream.tcc /usr/local/include/raylib.h
+ /usr/include/c++/15.2.1/bits/istream.tcc Core/Source/Core/Layer.h \
+ Core/Source/Core/Application.h /usr/include/c++/15.2.1/vector \
+ /usr/include/c++/15.2.1/bits/stl_uninitialized.h \
+ /usr/include/c++/15.2.1/bits/stl_vector.h \
+ /usr/include/c++/15.2.1/bits/stl_bvector.h \
+ /usr/include/c++/15.2.1/bits/vector.tcc \
+ Core/Source/Core/Raylib/include/raylib.h
 /usr/include/stdc-predef.h:
 /usr/include/c++/15.2.1/iostream:
 /usr/include/c++/15.2.1/bits/requires_hosted.h:
@@ -344,4 +350,11 @@ obj/Debug/main.o: SnakeGame/src/main.cpp /usr/include/stdc-predef.h \
 /usr/include/c++/15.2.1/bits/ostream.tcc:
 /usr/include/c++/15.2.1/istream:
 /usr/include/c++/15.2.1/bits/istream.tcc:
-/usr/local/include/raylib.h:
+Core/Source/Core/Layer.h:
+Core/Source/Core/Application.h:
+/usr/include/c++/15.2.1/vector:
+/usr/include/c++/15.2.1/bits/stl_uninitialized.h:
+/usr/include/c++/15.2.1/bits/stl_vector.h:
+/usr/include/c++/15.2.1/bits/stl_bvector.h:
+/usr/include/c++/15.2.1/bits/vector.tcc:
+Core/Source/Core/Raylib/include/raylib.h:

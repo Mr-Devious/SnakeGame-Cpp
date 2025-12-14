@@ -4,32 +4,32 @@ workspace "SnakeGame"
     configurations { "Debug", "Release" }
     startproject "SnakeGame"
 
-    -- Define common properties for Linux
     filter "system:linux"
         language "C++"
-        buildoptions { "-std=c++14" }
+        buildoptions { "-std=c++17" }
         --DEFAULT_SOURCE is required for clock_gettime/CLOCK_MONOTONIC
         defines { "_DEFAULT_SOURCE" } 
     
-    ---
-
     project "SnakeGAME"
         kind "ConsoleApp"
         targetdir "bin/%{cfg.buildcfg}"
         objdir "bin-int/%{cfg.buildcfg}"
 
-        files { "Core/SnakeGame/**.cpp", "Core/SnakeGame/**.h" }
+        files { "App/Source/**.cpp", "App/Source/**.h", "Core/Source/Core/**h", "Core/Source/Core/**.cpp" } 
 
         includedirs { 
-            "/home/coolguy1/Projects/SnakeGame/Core/raylib/build/raylib/include/" 
+            "/home/coolguy1/Projects/SnakeGame/Core/Source/Core/Raylib/include/",
+            "/home/coolguy1/Projects/SnakeGame/App/Source/",
+            "/home/coolguy1/Projects/SnakeGame/Core/Source/Core/"
+            
         }
 
         libdirs { 
-            "/home/coolguy1/Projects/SnakeGame/Core/raylib/build/raylib" 
+            "/home/coolguy1/Projects/SnakeGame/Core/Source/Core/Raylib/" 
         }
 
         links { 
-            "raylib:static", -- Link the raylib library (.a) statically
+            "raylib:static",
             
             -- Raylib's required system dependencies on Linux (MUST follow raylib):
             "m",       -- Math library

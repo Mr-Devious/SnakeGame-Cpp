@@ -1,0 +1,135 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-D_DEFAULT_SOURCE",
+      "-DDEBUG",
+      "-ICore/Source/Core/Raylib/include",
+      "-IApp/Source",
+      "-ICore/Source/Core",
+      "-g",
+      "-std=c++17",
+      "-c",
+      "-o",
+      "bin-int/Debug/AppLayer.o",
+      "App/Source/AppLayer.cpp"
+    ],
+    "directory": "/home/coolguy1/Projects/SnakeGame",
+    "file": "/home/coolguy1/Projects/SnakeGame/App/Source/AppLayer.cpp",
+    "output": "/home/coolguy1/Projects/SnakeGame/bin-int/Debug/AppLayer.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-D_DEFAULT_SOURCE",
+      "-DDEBUG",
+      "-ICore/Source/Core/Raylib/include",
+      "-IApp/Source",
+      "-ICore/Source/Core",
+      "-g",
+      "-std=c++17",
+      "-c",
+      "-o",
+      "bin-int/Debug/Application.o",
+      "Core/Source/Core/Application.cpp"
+    ],
+    "directory": "/home/coolguy1/Projects/SnakeGame",
+    "file": "/home/coolguy1/Projects/SnakeGame/Core/Source/Core/Application.cpp",
+    "output": "/home/coolguy1/Projects/SnakeGame/bin-int/Debug/Application.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-D_DEFAULT_SOURCE",
+      "-DDEBUG",
+      "-ICore/Source/Core/Raylib/include",
+      "-IApp/Source",
+      "-ICore/Source/Core",
+      "-g",
+      "-std=c++17",
+      "-c",
+      "-o",
+      "bin-int/Debug/Layer.o",
+      "Core/Source/Core/Layer.cpp"
+    ],
+    "directory": "/home/coolguy1/Projects/SnakeGame",
+    "file": "/home/coolguy1/Projects/SnakeGame/Core/Source/Core/Layer.cpp",
+    "output": "/home/coolguy1/Projects/SnakeGame/bin-int/Debug/Layer.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-D_DEFAULT_SOURCE",
+      "-DDEBUG",
+      "-ICore/Source/Core/Raylib/include",
+      "-IApp/Source",
+      "-ICore/Source/Core",
+      "-g",
+      "-std=c++17",
+      "-c",
+      "-o",
+      "bin-int/Debug/gui.o",
+      "App/Source/gui.cpp"
+    ],
+    "directory": "/home/coolguy1/Projects/SnakeGame",
+    "file": "/home/coolguy1/Projects/SnakeGame/App/Source/gui.cpp",
+    "output": "/home/coolguy1/Projects/SnakeGame/bin-int/Debug/gui.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-D_DEFAULT_SOURCE",
+      "-DDEBUG",
+      "-ICore/Source/Core/Raylib/include",
+      "-IApp/Source",
+      "-ICore/Source/Core",
+      "-g",
+      "-std=c++17",
+      "-c",
+      "-o",
+      "bin-int/Debug/logic.o",
+      "App/Source/logic.cpp"
+    ],
+    "directory": "/home/coolguy1/Projects/SnakeGame",
+    "file": "/home/coolguy1/Projects/SnakeGame/App/Source/logic.cpp",
+    "output": "/home/coolguy1/Projects/SnakeGame/bin-int/Debug/logic.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-D_DEFAULT_SOURCE",
+      "-DDEBUG",
+      "-ICore/Source/Core/Raylib/include",
+      "-IApp/Source",
+      "-ICore/Source/Core",
+      "-g",
+      "-std=c++17",
+      "-c",
+      "-o",
+      "bin-int/Debug/main.o",
+      "App/Source/main.cpp"
+    ],
+    "directory": "/home/coolguy1/Projects/SnakeGame",
+    "file": "/home/coolguy1/Projects/SnakeGame/App/Source/main.cpp",
+    "output": "/home/coolguy1/Projects/SnakeGame/bin-int/Debug/main.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-D_DEFAULT_SOURCE",
+      "-DDEBUG",
+      "-ICore/Source/Core/Raylib/include",
+      "-IApp/Source",
+      "-ICore/Source/Core",
+      "-g",
+      "-std=c++17",
+      "-c",
+      "-o",
+      "bin-int/Debug/snake.o",
+      "App/Source/snake.cpp"
+    ],
+    "directory": "/home/coolguy1/Projects/SnakeGame",
+    "file": "/home/coolguy1/Projects/SnakeGame/App/Source/snake.cpp",
+    "output": "/home/coolguy1/Projects/SnakeGame/bin-int/Debug/snake.o"
+  }
+]
