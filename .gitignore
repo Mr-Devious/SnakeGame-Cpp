@@ -1,0 +1,12 @@
+/bin/
+/bin-int/
+*.o
+*.obj
+*.exe
+*.out
+*.a
+*.so
+
+compile_commands.json
+
+.vscode/
