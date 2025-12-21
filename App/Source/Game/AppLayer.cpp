@@ -16,12 +16,13 @@ namespace App
     while(!WindowShouldClose())
     {
       ClearBackground(DARKGREEN);
-      BeginDrawing();
 
-      player.drawBody();
-      Snake::printScore();
       Snake::onCollide(player, apple);
       
+      
+      BeginDrawing();
+      Snake::printScore();
+      player.drawBody();
       player.move();
       apple.draw();
 

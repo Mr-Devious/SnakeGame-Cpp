@@ -23,7 +23,7 @@ private:
   int m_fps{};
   //
   
-  std::vector<Layer*> m_appLayer{};  // make better system later maybe  !100% will definetely leak memeory! // whoops
+  std::vector<Layer*> m_appLayer{};  // make better system later maybe  
 public:
   Application(std::string name, int height, int width, int fps) : m_name(name), m_height(height), m_width(width), m_fps(fps) {}
   ~Application()

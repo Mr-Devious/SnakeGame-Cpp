@@ -1,7 +1,6 @@
 #include "snake.h"
 
 #include "raylib.h"
-#include <cstddef>
 #include <deque>
 #include <string>
 

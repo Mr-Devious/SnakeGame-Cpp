@@ -10,17 +10,18 @@ workspace "SnakeGame"
         --DEFAULT_SOURCE is required for clock_gettime/CLOCK_MONOTONIC
         defines { "_DEFAULT_SOURCE" } 
     
-    project "SnakeGAME"
+    project "SnakeGame"
         kind "ConsoleApp"
         targetdir "bin/%{cfg.buildcfg}"
         objdir "bin-int/%{cfg.buildcfg}"
-
-        files { "App/Source/**.cpp", "App/Source/**.h", "Core/Source/Core/**h", "Core/Source/Core/**.cpp" } 
+       
+        files { "**cpp", "**h", "**hpp", "**c" } 
 
         includedirs { 
             
             "Core/Source/Core/Raylib/include/",
             "App/Source/",
+            "App/Source/Game",
             "Core/Source/Core/"
             
         }

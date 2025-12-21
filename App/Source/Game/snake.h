@@ -1,6 +1,3 @@
-#include "Application.h"
-#include "raylib.h"
-  
 #pragma once
 #include "raylib.h"
 namespace Snake
